@@ -1,0 +1,9 @@
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/budparr/gohugo-theme-ananke.git
+[submodule "themes/hyde"]
+	path = themes/hyde
+	url = git@github.com:spf13/hyde.git
+[submodule "theme/slick"]
+	path = theme/slick
+	url = https://github.com/spookey/slick.git
