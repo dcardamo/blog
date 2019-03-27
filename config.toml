@@ -21,11 +21,11 @@ copyright = "Copyright © 2019 Dan Cardamore, all rights reserved"
     url = "/"
     weight = 1
 
-  [[menu.main]]
-    name = "Blog"
-    pre = "edit"
-    url = "/blog/"
-    weight = 3
+  # [[menu.main]]
+  #   name = "Blog"
+  #   pre = "edit"
+  #   url = "/blog/"
+  #   weight = 3
 
   [[menu.main]]
     name = "Tags"

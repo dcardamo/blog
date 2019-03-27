@@ -1,11 +1,9 @@
 {{ define "main" }}
 
-<h1>{{ .Title }}</h1>
-{{ range .Pages.ByPublishDate.Reverse }}
+<h1>Dan Cardamore's Blog</h1>
+{{ range where .Pages.ByPublishDate.Reverse "Params.type" "!=" "static"}}
 <p>
-    <a class="font-125" href="{{ .RelPermalink }}">{{ .Title }}</a>
-    <br>
-    {{ partial "date-and-tags.html" . }}
+    {{ .Render "summary" }}
 </p>
 {{ end }}
 
