@@ -6,3 +6,4 @@ draft: false
 type: "static"
 ---
 This is Dan Cardamore's blog where I'll cover technology topics such as devops, kubernetes, golang and web technologies.
+

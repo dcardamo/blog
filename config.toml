@@ -7,8 +7,8 @@ copyright = "Copyright © 2019 Dan Cardamore, all rights reserved"
 # googleAnalytics = "TODO Tracking code"
 
 [params]
-  homeText = "Dan Cardamore's blog"
-    dateFormat = "Jan 2, 2006"
+  homeText = "Welcome to Dan's blog"
+  dateFormat = "Jan 2, 2006"
 
 [permalinks]
   blog = "/:filename/"
