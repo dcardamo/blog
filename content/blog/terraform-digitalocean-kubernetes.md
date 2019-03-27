@@ -41,7 +41,7 @@ To use it you need to:
 
 Here is an example prod.tfvars:
 
-```sh
+{{<highlight terraform "linenos=table">}}
 cluster_name = "production"
 k8s_version = "1.13.4-do.0"
 node_size = "s-1vcpu-2gb"
@@ -51,13 +51,15 @@ traefik_replicas = 2
 do_token = "your_do_token"
 lets_encrypt_email = "me@example.com"
 lets_encrypt_main_domain = "example.com"
-```
+{{</highlight>}}
 
 Make sure to backup your tfstate files after each apply.  You'll need those for the next time you
 run terraform.
 
 ### DigitalOcean Kubernetes Cluster
-![kubernetes cluster](/img/terraform-digitalocean-kubernetes1.png)
+![kubernetes cluster](/img/terraform-digitalocean-kubernetes/terraform-digitalocean-kubernetes1.png)
 
 ### DigitalOcean Load Balancer
-![kubernetes cluster](/img/terraform-digitalocean-kubernetes2.png)
+![kubernetes cluster](/img/terraform-digitalocean-kubernetes/terraform-digitalocean-kubernetes2.png)
+
+Congratulations, you have a kubernetes cluster running with infrastructure as code.  The setup I'm showing here costs $20 for the worker nodes and $15/mo for the load balancer.   Pretty slick price in my opinion.
