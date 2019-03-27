@@ -197,6 +197,7 @@ stringData:
     3.  Expand Deploy tokens and create a new one with name "gitlab-deploy-token" with "read_registry" permission ![screenshot](/img/gobuffalo-gitlab-kubernetes-deploy/gobuffalo-gitlab-kubernetes-deploy1.png)
     4.  Go to CI/CD settings and then add two new environment variables:  GITLAB_DEPLOY_TOKEN_USER and GITLAB_DEPLOY_TOKEN_PASSWORD
     5.  Add DATABASE_URL and SESSION_SECRET environment variables to the CI/CD settings page.  These map to the `secrets.tpl.yml` file
-10. git add and git push to gitlab master.  Your pipeline should run and you ![should be green](/img/gobuffalo-gitlab-kubernetes-deploy/pipeline.png)
+10. git add and git push to gitlab master.  Your pipeline should run and should be green. ![pipeline](/img/gobuffalo-gitlab-kubernetes-deploy/pipeline.png)
+
 
 You can find the source code for this project here: [https://github.com/dcardamo/cokek8s](https://github.com/dcardamo/cokek8s)
