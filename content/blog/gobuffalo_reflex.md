@@ -116,7 +116,7 @@ reflex -s -R '^node_modules/' -g .reflex.conf -- reflex -d fancy -c .reflex.conf
 What this setup does is it will start reflex and on any change to the .reflex.conf file it will restart reflex
 automatically.   Then if you change any go file it will run your tests and lint in parallel.
 If you change a migration file it will recreate your database.  This is helpful because the test database is populated
-with a schema from your development database and if you don't do this your tests may fail if they are using the latest
+with a schema from your development database and if you don't do this your tests may fail if they are not using the latest
 schema.
 
 
