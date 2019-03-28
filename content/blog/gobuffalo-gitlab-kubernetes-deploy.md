@@ -99,7 +99,7 @@ deploy:
 {{</highlight>}}
 6.  Modify the `.gitlab-ci.yml` file to change `example.com` to your domain
 7.  `mkdir k8s` and place these two files inside:
-    * k8s/kubernets.tpl.yml: this file defines the deployment and ingress
+    * k8s/kubernetes.tpl.yml: this file defines the deployment and ingress
     {{<highlight yml>}}
 apiVersion: apps/v1
 kind: Deployment
