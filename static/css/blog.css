@@ -1,0 +1,71 @@
+
+@font-face {
+    font-family: 'Space Grotesk', serif;
+    src: url("../fonts/SpaceGrotesk-Regular.otf") format("opentype")
+}
+
+@font-face {
+    font-family: 'Space Grotesk', serif;
+    font-weight: bold;
+    src: url("../fonts/SpaceGrotesk-Bold.otf") format("opentype")
+}
+
+.container {
+    max-width: 100%;
+}
+
+.main_container {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+#nav a {
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #000000;
+    font-weight: bold;
+}
+
+a {
+    color: #0d00c8;
+}
+
+#nav-border {
+    border-bottom: 1px solid #212529;
+    background-color: #eef9ff;
+}
+
+#main {
+    margin-top: 1em;
+    margin-bottom: 4em;
+}
+
+#home-jumbotron {
+    background-color: inherit;
+}
+
+.font-125 {
+    font-size: 125%;
+}
+
+.tag-btn {
+    margin-bottom: 0.3em;
+}
+
+img {
+    max-width: 100%;
+}
+
+.highlight {
+    font-family: "SF Mono", "Monaco", "Andale Mono", "Lucida Console", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+}
+
+.code {
+    font-family: "SF Mono", "Monaco", "Andale Mono", "Lucida Console", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+}
+
+p {
+    font-family: 'Space Grotesk'
+}

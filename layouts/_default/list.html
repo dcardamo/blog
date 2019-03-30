@@ -1,6 +1,5 @@
 {{ define "main" }}
 
-<h1>Dan Cardamore's Blog</h1>
 {{ range where .Pages.ByPublishDate.Reverse "Params.type" "!=" "static"}}
 <p>
     {{ .Render "summary" }}
